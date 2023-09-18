@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    grid-area: header;
+    background-color: #25527B;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+menu{
+    grid-area: menu;
+    background-color: #e7e7e7;
+    padding: 30px;
+
+
+}
+
+.productos img{
+    width: 180px;
+    height: 250px;
+
+}
+
+button{
+    width: 180px;
+    height: 40px;
+    background-color: #25527B;
+    color: white;
+}
+
+main{
+    grid-area: main;
+    background-color: #e7e7e7;
+
+}
+
+main .productos .row{
+    display: flex;
+    margin: 10px;
+}
+
+main .productos .row .col-sm{
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    width: 180px;
+    margin: 10px;
+}
+
+footer{
+    grid-area: footer;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+
+    
+}
+
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header header header header"
+    "menu main main main main"
+    "footer footer footer footer footer";
+
+}
+
+
